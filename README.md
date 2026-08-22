@@ -1,18 +1,18 @@
-# 🔬 ResearchMind — Multi-Agent Research System
+# 🔬 ResearchMind - Multi-Agent Research System
 
 ResearchMind is an AI-powered research assistant that leverages multiple specialized agents to perform web research, extract information, generate reports, and evaluate output quality.
 
-## 🚀 Features
+## Features
 
-- 🌐 **Search Agent** — Finds relevant information using Tavily Search.
-- 📖 **Reader Agent** — Extracts and summarizes content from the most relevant source.
-- ✍️ **Writer Chain** — Generates a structured research report.
-- 🧠 **Critic Chain** — Reviews and scores the generated report for quality and completeness.
-- 🎨 **Streamlit UI** — Interactive web interface for running research workflows.
+- **Search Agent** — Finds relevant information using Tavily Search.
+- **Reader Agent** — Extracts and summarizes content from the most relevant source.
+- **Writer Chain** — Generates a structured research report.
+- **Critic Chain** — Reviews and scores the generated report for quality and completeness.
+- **Streamlit UI** — Interactive web interface for running research workflows.
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```text
 User Query
@@ -35,7 +35,7 @@ Final Research Report
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python
 - LangChain
@@ -45,7 +45,7 @@ Final Research Report
 
 ---
 
-## 📦 Installation
+## Installation
 
 Clone the repository:
 
@@ -75,7 +75,7 @@ TAVILY_API_KEY=your_tavily_api_key
 
 ---
 
-## ▶️ Usage
+## Usage
 
 ### Run from Command Line
 
@@ -91,7 +91,7 @@ streamlit run app.py
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 ResearchMind/
@@ -107,7 +107,7 @@ ResearchMind/
 
 ---
 
-## 🔄 Workflow
+## Workflow
 
 1. User submits a research query.
 2. Search Agent retrieves relevant web sources.
