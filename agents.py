@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 #model setup
-llm = ChatGroq(model="qwen/qwen3.6-27b", temperature=0)
+llm = ChatGroq(model="qwen/qwen3.6-27b", temperature=0, reasoning_format="hidden")
 
 
 #1st agent 
