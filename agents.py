@@ -9,7 +9,7 @@ load_dotenv()
 
 #model setup
 llm = ChatGroq(
-    model="llama-prompt-guard-2-86m", 
+    model="openai/gpt-oss-20b", 
     temperature=0
 )
 
